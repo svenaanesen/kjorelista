@@ -183,7 +183,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Kjorelista/Pods-Kjorelista-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Kjorelista/Pods-Kjorelista-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -192,7 +192,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kjorelista/Pods-Kjorelista-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kjorelista/Pods-Kjorelista-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BCF4BD4C450E69E0EC07E0B5 /* [CP] Check Pods Manifest.lock */ = {
@@ -371,7 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 94TFA8XC4S;
+				DEVELOPMENT_TEAM = XE253SCCM3;
 				INFOPLIST_FILE = Kjorelista/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -391,7 +391,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 94TFA8XC4S;
+				DEVELOPMENT_TEAM = XE253SCCM3;
 				INFOPLIST_FILE = Kjorelista/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
