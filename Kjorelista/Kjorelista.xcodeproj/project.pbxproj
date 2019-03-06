@@ -16,6 +16,9 @@
 		E34F5770222D9EA6007BAC4F /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34F576F222D9EA6007BAC4F /* Media.xcassets */; };
 		E34F5772222D9F33007BAC4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34F5771222D9F33007BAC4F /* Assets.xcassets */; };
 		E34F5779222E5668007BAC4F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34F5778222E5668007BAC4F /* Theme.swift */; };
+		E37DDC69222F01D1000361B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E37DDC68222F01D1000361B7 /* GoogleService-Info.plist */; };
+		E37DDC6B222F0714000361B7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37DDC6A222F0714000361B7 /* LoginViewController.swift */; };
+		E37DDC6D222F0B24000361B7 /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37DDC6C222F0B24000361B7 /* OverviewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		E34F576F222D9EA6007BAC4F /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		E34F5771222D9F33007BAC4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E34F5778222E5668007BAC4F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		E37DDC68222F01D1000361B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E37DDC6A222F0714000361B7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E37DDC6C222F0B24000361B7 /* OverviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +95,12 @@
 				E34F5777222E564F007BAC4F /* common */,
 				E34F5751222D984E007BAC4F /* AppDelegate.swift */,
 				E34F5753222D984E007BAC4F /* ViewController.swift */,
+				E37DDC6C222F0B24000361B7 /* OverviewController.swift */,
+				E37DDC6A222F0714000361B7 /* LoginViewController.swift */,
 				E34F5755222D984E007BAC4F /* Main.storyboard */,
 				E34F575D222D9850007BAC4F /* LaunchScreen.storyboard */,
 				E34F5760222D9850007BAC4F /* Info.plist */,
+				E37DDC68222F01D1000361B7 /* GoogleService-Info.plist */,
 				E34F576F222D9EA6007BAC4F /* Media.xcassets */,
 				E34F5771222D9F33007BAC4F /* Assets.xcassets */,
 				E34F5766222D998E007BAC4F /* Model.xcdatamodeld */,
@@ -169,6 +178,7 @@
 			files = (
 				E34F575F222D9850007BAC4F /* LaunchScreen.storyboard in Resources */,
 				E34F5770222D9EA6007BAC4F /* Media.xcassets in Resources */,
+				E37DDC69222F01D1000361B7 /* GoogleService-Info.plist in Resources */,
 				E34F5772222D9F33007BAC4F /* Assets.xcassets in Resources */,
 				E34F5757222D984E007BAC4F /* Main.storyboard in Resources */,
 			);
@@ -184,11 +194,21 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Kjorelista/Pods-Kjorelista-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -223,6 +243,8 @@
 				E34F5754222D984E007BAC4F /* ViewController.swift in Sources */,
 				E34F5779222E5668007BAC4F /* Theme.swift in Sources */,
 				E34F5752222D984E007BAC4F /* AppDelegate.swift in Sources */,
+				E37DDC6B222F0714000361B7 /* LoginViewController.swift in Sources */,
+				E37DDC6D222F0B24000361B7 /* OverviewController.swift in Sources */,
 				E34F576A222D998E007BAC4F /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

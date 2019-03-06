@@ -9,5 +9,12 @@ target 'Kjorelista' do
   
   # Redux-like global state handling
   pod 'ReSwift', '~>4.0.0'
+  
+  # Firebase integration
+  pod 'Firebase/Core'
+  pod 'Firebase/AdMob'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
 
 end

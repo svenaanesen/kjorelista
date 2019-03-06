@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kjørelista" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yh6-CB-5kh">
-                                <rect key="frame" x="132.5" y="92.5" width="110.5" height="38.5"/>
+                                <rect key="frame" x="132.5" y="80" width="110.5" height="38.5"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="28"/>
                                 <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -34,7 +34,7 @@
                             <constraint firstItem="Yh6-CB-5kh" firstAttribute="centerX" secondItem="Rdp-Mx-6vE" secondAttribute="centerX" id="5FE-3Y-YZn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Rdp-Mx-6vE" secondAttribute="trailing" id="FUf-dh-tiF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Rdp-Mx-6vE" secondAttribute="bottom" id="NRg-4H-iPh"/>
-                            <constraint firstItem="Rdp-Mx-6vE" firstAttribute="top" secondItem="Yh6-CB-5kh" secondAttribute="bottom" constant="-131" id="Ub8-aS-W0f"/>
+                            <constraint firstItem="Yh6-CB-5kh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="azJ-Bl-8rR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="Rdp-Mx-6vE" secondAttribute="top" constant="20" id="b7U-wp-iks"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
