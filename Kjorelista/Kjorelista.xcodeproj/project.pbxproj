@@ -1,469 +1,529 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 50;
-	objects = {
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 50;
+    objects = {
 
 /* Begin PBXBuildFile section */
-		321986405715C5511EFBF71B /* Pods_Kjorelista.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469663AABDDC00F32163EA0F /* Pods_Kjorelista.framework */; };
-		E34F5752222D984E007BAC4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34F5751222D984E007BAC4F /* AppDelegate.swift */; };
-		E34F5754222D984E007BAC4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34F5753222D984E007BAC4F /* ViewController.swift */; };
-		E34F5757222D984E007BAC4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34F5755222D984E007BAC4F /* Main.storyboard */; };
-		E34F575F222D9850007BAC4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34F575D222D9850007BAC4F /* LaunchScreen.storyboard */; };
-		E34F576A222D998E007BAC4F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E34F5766222D998E007BAC4F /* Model.xcdatamodeld */; };
-		E34F5770222D9EA6007BAC4F /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34F576F222D9EA6007BAC4F /* Media.xcassets */; };
-		E34F5772222D9F33007BAC4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34F5771222D9F33007BAC4F /* Assets.xcassets */; };
-		E34F5779222E5668007BAC4F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34F5778222E5668007BAC4F /* Theme.swift */; };
+        321986405715C5511EFBF71B /* Pods_Kjorelista.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469663AABDDC00F32163EA0F /* Pods_Kjorelista.framework */; };
+        E34F5752222D984E007BAC4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34F5751222D984E007BAC4F /* AppDelegate.swift */; };
+        E34F5754222D984E007BAC4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34F5753222D984E007BAC4F /* ViewController.swift */; };
+        E34F5757222D984E007BAC4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34F5755222D984E007BAC4F /* Main.storyboard */; };
+        E34F575F222D9850007BAC4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34F575D222D9850007BAC4F /* LaunchScreen.storyboard */; };
+        E34F576A222D998E007BAC4F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E34F5766222D998E007BAC4F /* Model.xcdatamodeld */; };
+        E34F5770222D9EA6007BAC4F /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34F576F222D9EA6007BAC4F /* Media.xcassets */; };
+        E34F5772222D9F33007BAC4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34F5771222D9F33007BAC4F /* Assets.xcassets */; };
+        E34F5779222E5668007BAC4F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34F5778222E5668007BAC4F /* Theme.swift */; };
 		E37DDC69222F01D1000361B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E37DDC68222F01D1000361B7 /* GoogleService-Info.plist */; };
 		E37DDC6B222F0714000361B7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37DDC6A222F0714000361B7 /* LoginViewController.swift */; };
 		E37DDC6D222F0B24000361B7 /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37DDC6C222F0B24000361B7 /* OverviewController.swift */; };
+		E35B81B3222F9FFB0014D8C9 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E35B81A6222F9FFA0014D8C9 /* Roboto-Medium.ttf */; };
+		E35B81B4222F9FFB0014D8C9 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E35B81A7222F9FFA0014D8C9 /* Roboto-Light.ttf */; };
+		E35B81B5222F9FFB0014D8C9 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E35B81A8222F9FFA0014D8C9 /* Roboto-Regular.ttf */; };
+		E35B81B6222F9FFB0014D8C9 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E35B81A9222F9FFA0014D8C9 /* Roboto-MediumItalic.ttf */; };
+		E35B81B7222F9FFB0014D8C9 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E35B81AA222F9FFA0014D8C9 /* Roboto-ThinItalic.ttf */; };
+		E35B81B8222F9FFB0014D8C9 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E35B81AB222F9FFA0014D8C9 /* Roboto-BoldItalic.ttf */; };
+		E35B81B9222F9FFB0014D8C9 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E35B81AC222F9FFA0014D8C9 /* Roboto-LightItalic.ttf */; };
+		E35B81BA222F9FFB0014D8C9 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E35B81AD222F9FFA0014D8C9 /* Roboto-Italic.ttf */; };
+		E35B81BB222F9FFB0014D8C9 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = E35B81AE222F9FFA0014D8C9 /* LICENSE.txt */; };
+		E35B81BC222F9FFB0014D8C9 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E35B81AF222F9FFA0014D8C9 /* Roboto-BlackItalic.ttf */; };
+		E35B81BD222F9FFB0014D8C9 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E35B81B0222F9FFA0014D8C9 /* Roboto-Bold.ttf */; };
+		E35B81BE222F9FFB0014D8C9 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E35B81B1222F9FFA0014D8C9 /* Roboto-Thin.ttf */; };
+		E35B81BF222F9FFB0014D8C9 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E35B81B2222F9FFA0014D8C9 /* Roboto-Black.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		469663AABDDC00F32163EA0F /* Pods_Kjorelista.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kjorelista.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E455010E5BCE0C73D59A5FB /* Pods-Kjorelista.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kjorelista.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kjorelista/Pods-Kjorelista.release.xcconfig"; sourceTree = "<group>"; };
-		B448D2DAAC63B9F67976D37C /* Pods-Kjorelista.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kjorelista.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kjorelista/Pods-Kjorelista.debug.xcconfig"; sourceTree = "<group>"; };
-		E34F574E222D984E007BAC4F /* Kjørelista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kjørelista.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E34F5751222D984E007BAC4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E34F5753222D984E007BAC4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E34F5756222D984E007BAC4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E34F575E222D9850007BAC4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E34F5760222D9850007BAC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E34F5767222D998E007BAC4F /* Model 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 3.xcdatamodel"; sourceTree = "<group>"; };
-		E34F5768222D998E007BAC4F /* model 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "model 2.xcdatamodel"; sourceTree = "<group>"; };
-		E34F5769222D998E007BAC4F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		E34F576F222D9EA6007BAC4F /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		E34F5771222D9F33007BAC4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E34F5778222E5668007BAC4F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+        469663AABDDC00F32163EA0F /* Pods_Kjorelista.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kjorelista.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+        7E455010E5BCE0C73D59A5FB /* Pods-Kjorelista.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kjorelista.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kjorelista/Pods-Kjorelista.release.xcconfig"; sourceTree = "<group>"; };
+        B448D2DAAC63B9F67976D37C /* Pods-Kjorelista.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kjorelista.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kjorelista/Pods-Kjorelista.debug.xcconfig"; sourceTree = "<group>"; };
+        E34F574E222D984E007BAC4F /* Kjørelista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kjørelista.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+        E34F5751222D984E007BAC4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+        E34F5753222D984E007BAC4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+        E34F5756222D984E007BAC4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+        E34F575E222D9850007BAC4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+        E34F5760222D9850007BAC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        E34F5767222D998E007BAC4F /* Model 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 3.xcdatamodel"; sourceTree = "<group>"; };
+        E34F5768222D998E007BAC4F /* model 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "model 2.xcdatamodel"; sourceTree = "<group>"; };
+        E34F5769222D998E007BAC4F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+        E34F576F222D9EA6007BAC4F /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+        E34F5771222D9F33007BAC4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+        E34F5778222E5668007BAC4F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		E37DDC68222F01D1000361B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E37DDC6A222F0714000361B7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E37DDC6C222F0B24000361B7 /* OverviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewController.swift; sourceTree = "<group>"; };
+		E35B81A6222F9FFA0014D8C9 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		E35B81A7222F9FFA0014D8C9 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		E35B81A8222F9FFA0014D8C9 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		E35B81A9222F9FFA0014D8C9 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		E35B81AA222F9FFA0014D8C9 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		E35B81AB222F9FFA0014D8C9 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E35B81AC222F9FFA0014D8C9 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		E35B81AD222F9FFA0014D8C9 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		E35B81AE222F9FFA0014D8C9 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		E35B81AF222F9FFA0014D8C9 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E35B81B0222F9FFA0014D8C9 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		E35B81B1222F9FFA0014D8C9 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		E35B81B2222F9FFA0014D8C9 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E34F574B222D984E007BAC4F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				321986405715C5511EFBF71B /* Pods_Kjorelista.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        E34F574B222D984E007BAC4F /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                321986405715C5511EFBF71B /* Pods_Kjorelista.framework in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8F54AA91229BA6202C6ACD40 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				469663AABDDC00F32163EA0F /* Pods_Kjorelista.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CC18DC7C88BFC44C6E028D4E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B448D2DAAC63B9F67976D37C /* Pods-Kjorelista.debug.xcconfig */,
-				7E455010E5BCE0C73D59A5FB /* Pods-Kjorelista.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E34F5745222D984E007BAC4F = {
-			isa = PBXGroup;
-			children = (
-				E34F5750222D984E007BAC4F /* Kjorelista */,
-				E34F574F222D984E007BAC4F /* Products */,
-				CC18DC7C88BFC44C6E028D4E /* Pods */,
-				8F54AA91229BA6202C6ACD40 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		E34F574F222D984E007BAC4F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E34F574E222D984E007BAC4F /* Kjørelista.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E34F5750222D984E007BAC4F /* Kjorelista */ = {
-			isa = PBXGroup;
-			children = (
-				E34F5777222E564F007BAC4F /* common */,
-				E34F5751222D984E007BAC4F /* AppDelegate.swift */,
-				E34F5753222D984E007BAC4F /* ViewController.swift */,
-				E37DDC6C222F0B24000361B7 /* OverviewController.swift */,
-				E37DDC6A222F0714000361B7 /* LoginViewController.swift */,
-				E34F5755222D984E007BAC4F /* Main.storyboard */,
-				E34F575D222D9850007BAC4F /* LaunchScreen.storyboard */,
-				E34F5760222D9850007BAC4F /* Info.plist */,
-				E37DDC68222F01D1000361B7 /* GoogleService-Info.plist */,
-				E34F576F222D9EA6007BAC4F /* Media.xcassets */,
-				E34F5771222D9F33007BAC4F /* Assets.xcassets */,
-				E34F5766222D998E007BAC4F /* Model.xcdatamodeld */,
-			);
-			path = Kjorelista;
-			sourceTree = "<group>";
-		};
-		E34F5777222E564F007BAC4F /* common */ = {
-			isa = PBXGroup;
-			children = (
-				E34F5778222E5668007BAC4F /* Theme.swift */,
-			);
-			path = common;
-			sourceTree = "<group>";
-		};
+        8F54AA91229BA6202C6ACD40 /* Frameworks */ = {
+            isa = PBXGroup;
+            children = (
+                469663AABDDC00F32163EA0F /* Pods_Kjorelista.framework */,
+            );
+            name = Frameworks;
+            sourceTree = "<group>";
+        };
+        CC18DC7C88BFC44C6E028D4E /* Pods */ = {
+            isa = PBXGroup;
+            children = (
+                B448D2DAAC63B9F67976D37C /* Pods-Kjorelista.debug.xcconfig */,
+                7E455010E5BCE0C73D59A5FB /* Pods-Kjorelista.release.xcconfig */,
+            );
+            name = Pods;
+            sourceTree = "<group>";
+        };
+        E34F5745222D984E007BAC4F = {
+            isa = PBXGroup;
+            children = (
+                E34F5750222D984E007BAC4F /* Kjorelista */,
+                E34F574F222D984E007BAC4F /* Products */,
+                CC18DC7C88BFC44C6E028D4E /* Pods */,
+                8F54AA91229BA6202C6ACD40 /* Frameworks */,
+            );
+            sourceTree = "<group>";
+        };
+        E34F574F222D984E007BAC4F /* Products */ = {
+            isa = PBXGroup;
+            children = (
+                E34F574E222D984E007BAC4F /* Kjørelista.app */,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+        E34F5750222D984E007BAC4F /* Kjorelista */ = {
+            isa = PBXGroup;
+            children = (
+                E34F5777222E564F007BAC4F /* common */,
+                E34F5751222D984E007BAC4F /* AppDelegate.swift */,
+                E34F5753222D984E007BAC4F /* ViewController.swift */,
+                E37DDC6C222F0B24000361B7 /* OverviewController.swift */,
+                E37DDC6A222F0714000361B7 /* LoginViewController.swift */,
+                E34F5755222D984E007BAC4F /* Main.storyboard */,
+                E34F575D222D9850007BAC4F /* LaunchScreen.storyboard */,
+                E34F5760222D9850007BAC4F /* Info.plist */,
+                E37DDC68222F01D1000361B7 /* GoogleService-Info.plist */,
+                E34F576F222D9EA6007BAC4F /* Media.xcassets */,
+                E34F5771222D9F33007BAC4F /* Assets.xcassets */,
+                E35B81A5222F9FFA0014D8C9 /* Roboto */,
+                E34F5766222D998E007BAC4F /* Model.xcdatamodeld */,
+            );
+            path = Kjorelista;
+            sourceTree = "<group>";
+        };
+        E34F5777222E564F007BAC4F /* common */ = {
+            isa = PBXGroup;
+            children = (
+                E34F5778222E5668007BAC4F /* Theme.swift */,
+            );
+            path = common;
+            sourceTree = "<group>";
+        };
+        E35B81A5222F9FFA0014D8C9 /* Roboto */ = {
+            isa = PBXGroup;
+            children = (
+                E35B81A6222F9FFA0014D8C9 /* Roboto-Medium.ttf */,
+                E35B81A7222F9FFA0014D8C9 /* Roboto-Light.ttf */,
+                E35B81A8222F9FFA0014D8C9 /* Roboto-Regular.ttf */,
+                E35B81A9222F9FFA0014D8C9 /* Roboto-MediumItalic.ttf */,
+                E35B81AA222F9FFA0014D8C9 /* Roboto-ThinItalic.ttf */,
+                E35B81AB222F9FFA0014D8C9 /* Roboto-BoldItalic.ttf */,
+                E35B81AC222F9FFA0014D8C9 /* Roboto-LightItalic.ttf */,
+                E35B81AD222F9FFA0014D8C9 /* Roboto-Italic.ttf */,
+                E35B81AE222F9FFA0014D8C9 /* LICENSE.txt */,
+                E35B81AF222F9FFA0014D8C9 /* Roboto-BlackItalic.ttf */,
+                E35B81B0222F9FFA0014D8C9 /* Roboto-Bold.ttf */,
+                E35B81B1222F9FFA0014D8C9 /* Roboto-Thin.ttf */,
+                E35B81B2222F9FFA0014D8C9 /* Roboto-Black.ttf */,
+            );
+            path = Roboto;
+            sourceTree = "<group>";
+        };
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E34F574D222D984E007BAC4F /* Kjorelista */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E34F5763222D9850007BAC4F /* Build configuration list for PBXNativeTarget "Kjorelista" */;
-			buildPhases = (
-				BCF4BD4C450E69E0EC07E0B5 /* [CP] Check Pods Manifest.lock */,
-				E34F574A222D984E007BAC4F /* Sources */,
-				E34F574B222D984E007BAC4F /* Frameworks */,
-				E34F574C222D984E007BAC4F /* Resources */,
-				9EC68553E946A50F8E355FAB /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Kjorelista;
-			productName = Kjorelista;
-			productReference = E34F574E222D984E007BAC4F /* Kjørelista.app */;
-			productType = "com.apple.product-type.application";
-		};
+        E34F574D222D984E007BAC4F /* Kjorelista */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = E34F5763222D9850007BAC4F /* Build configuration list for PBXNativeTarget "Kjorelista" */;
+            buildPhases = (
+                BCF4BD4C450E69E0EC07E0B5 /* [CP] Check Pods Manifest.lock */,
+                E34F574A222D984E007BAC4F /* Sources */,
+                E34F574B222D984E007BAC4F /* Frameworks */,
+                E34F574C222D984E007BAC4F /* Resources */,
+                9EC68553E946A50F8E355FAB /* [CP] Embed Pods Frameworks */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = Kjorelista;
+            productName = Kjorelista;
+            productReference = E34F574E222D984E007BAC4F /* Kjørelista.app */;
+            productType = "com.apple.product-type.application";
+        };
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E34F5746222D984E007BAC4F /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = svenway;
-				TargetAttributes = {
-					E34F574D222D984E007BAC4F = {
-						CreatedOnToolsVersion = 10.1;
-					};
-				};
-			};
-			buildConfigurationList = E34F5749222D984E007BAC4F /* Build configuration list for PBXProject "Kjorelista" */;
-			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = E34F5745222D984E007BAC4F;
-			productRefGroup = E34F574F222D984E007BAC4F /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				E34F574D222D984E007BAC4F /* Kjorelista */,
-			);
-		};
+        E34F5746222D984E007BAC4F /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                LastSwiftUpdateCheck = 1010;
+                LastUpgradeCheck = 1010;
+                ORGANIZATIONNAME = svenway;
+                TargetAttributes = {
+                    E34F574D222D984E007BAC4F = {
+                        CreatedOnToolsVersion = 10.1;
+                    };
+                };
+            };
+            buildConfigurationList = E34F5749222D984E007BAC4F /* Build configuration list for PBXProject "Kjorelista" */;
+            compatibilityVersion = "Xcode 9.3";
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+                Base,
+            );
+            mainGroup = E34F5745222D984E007BAC4F;
+            productRefGroup = E34F574F222D984E007BAC4F /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                E34F574D222D984E007BAC4F /* Kjorelista */,
+            );
+        };
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E34F574C222D984E007BAC4F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E34F575F222D9850007BAC4F /* LaunchScreen.storyboard in Resources */,
-				E34F5770222D9EA6007BAC4F /* Media.xcassets in Resources */,
+        E34F574C222D984E007BAC4F /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                E35B81BE222F9FFB0014D8C9 /* Roboto-Thin.ttf in Resources */,
+                E35B81B3222F9FFB0014D8C9 /* Roboto-Medium.ttf in Resources */,
+                E35B81BA222F9FFB0014D8C9 /* Roboto-Italic.ttf in Resources */,
+                E35B81BD222F9FFB0014D8C9 /* Roboto-Bold.ttf in Resources */,
+                E35B81B9222F9FFB0014D8C9 /* Roboto-LightItalic.ttf in Resources */,
+                E35B81BF222F9FFB0014D8C9 /* Roboto-Black.ttf in Resources */,
+                E35B81BC222F9FFB0014D8C9 /* Roboto-BlackItalic.ttf in Resources */,
+                E35B81B5222F9FFB0014D8C9 /* Roboto-Regular.ttf in Resources */,
+                E34F575F222D9850007BAC4F /* LaunchScreen.storyboard in Resources */,
+                E35B81BB222F9FFB0014D8C9 /* LICENSE.txt in Resources */,
+                E35B81B4222F9FFB0014D8C9 /* Roboto-Light.ttf in Resources */,
+                E35B81B6222F9FFB0014D8C9 /* Roboto-MediumItalic.ttf in Resources */,
+                E34F5770222D9EA6007BAC4F /* Media.xcassets in Resources */,
 				E37DDC69222F01D1000361B7 /* GoogleService-Info.plist in Resources */,
-				E34F5772222D9F33007BAC4F /* Assets.xcassets in Resources */,
-				E34F5757222D984E007BAC4F /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+				E35B81B7222F9FFB0014D8C9 /* Roboto-ThinItalic.ttf in Resources */,
+                E34F5772222D9F33007BAC4F /* Assets.xcassets in Resources */,
+                E35B81B8222F9FFB0014D8C9 /* Roboto-BoldItalic.ttf in Resources */,
+                E34F5757222D984E007BAC4F /* Main.storyboard in Resources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9EC68553E946A50F8E355FAB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Kjorelista/Pods-Kjorelista-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kjorelista/Pods-Kjorelista-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BCF4BD4C450E69E0EC07E0B5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Kjorelista-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
+        9EC68553E946A50F8E355FAB /* [CP] Embed Pods Frameworks */ = {
+            isa = PBXShellScriptBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            inputPaths = (
+                "${PODS_ROOT}/Target Support Files/Pods-Kjorelista/Pods-Kjorelista-frameworks.sh",
+                "${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+                "${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+                "${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+                "${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+                "${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+                "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+            );
+            name = "[CP] Embed Pods Frameworks";
+            outputPaths = (
+                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+            shellPath = /bin/sh;
+            shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kjorelista/Pods-Kjorelista-frameworks.sh\"\n";
+            showEnvVarsInLog = 0;
+        };
+        BCF4BD4C450E69E0EC07E0B5 /* [CP] Check Pods Manifest.lock */ = {
+            isa = PBXShellScriptBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            inputPaths = (
+                "${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+                "${PODS_ROOT}/Manifest.lock",
+            );
+            name = "[CP] Check Pods Manifest.lock";
+            outputPaths = (
+                "$(DERIVED_FILE_DIR)/Pods-Kjorelista-checkManifestLockResult.txt",
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+            shellPath = /bin/sh;
+            shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+            showEnvVarsInLog = 0;
+        };
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E34F574A222D984E007BAC4F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E34F5754222D984E007BAC4F /* ViewController.swift in Sources */,
-				E34F5779222E5668007BAC4F /* Theme.swift in Sources */,
-				E34F5752222D984E007BAC4F /* AppDelegate.swift in Sources */,
-				E37DDC6B222F0714000361B7 /* LoginViewController.swift in Sources */,
-				E37DDC6D222F0B24000361B7 /* OverviewController.swift in Sources */,
-				E34F576A222D998E007BAC4F /* Model.xcdatamodeld in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        E34F574A222D984E007BAC4F /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                E34F5754222D984E007BAC4F /* ViewController.swift in Sources */,
+                E34F5779222E5668007BAC4F /* Theme.swift in Sources */,
+                E34F5752222D984E007BAC4F /* AppDelegate.swift in Sources */,
+                E37DDC6B222F0714000361B7 /* LoginViewController.swift in Sources */,
+                E37DDC6D222F0B24000361B7 /* OverviewController.swift in Sources */,
+                E34F576A222D998E007BAC4F /* Model.xcdatamodeld in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E34F5755222D984E007BAC4F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E34F5756222D984E007BAC4F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E34F575D222D9850007BAC4F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E34F575E222D9850007BAC4F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
+        E34F5755222D984E007BAC4F /* Main.storyboard */ = {
+            isa = PBXVariantGroup;
+            children = (
+                E34F5756222D984E007BAC4F /* Base */,
+            );
+            name = Main.storyboard;
+            sourceTree = "<group>";
+        };
+        E34F575D222D9850007BAC4F /* LaunchScreen.storyboard */ = {
+            isa = PBXVariantGroup;
+            children = (
+                E34F575E222D9850007BAC4F /* Base */,
+            );
+            name = LaunchScreen.storyboard;
+            sourceTree = "<group>";
+        };
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E34F5761222D9850007BAC4F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		E34F5762222D9850007BAC4F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E34F5764222D9850007BAC4F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B448D2DAAC63B9F67976D37C /* Pods-Kjorelista.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XE253SCCM3;
-				INFOPLIST_FILE = Kjorelista/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.svenway.kjorelista;
-				PRODUCT_NAME = "Kjørelista";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E34F5765222D9850007BAC4F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E455010E5BCE0C73D59A5FB /* Pods-Kjorelista.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XE253SCCM3;
-				INFOPLIST_FILE = Kjorelista/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.svenway.kjorelista;
-				PRODUCT_NAME = "Kjørelista";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
+        E34F5761222D9850007BAC4F /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+                CLANG_CXX_LIBRARY = "libc++";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_ENABLE_OBJC_WEAK = YES;
+                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_COMMA = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INFINITE_RECURSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+                CLANG_WARN_STRICT_PROTOTYPES = YES;
+                CLANG_WARN_SUSPICIOUS_MOVE = YES;
+                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+                CLANG_WARN_UNREACHABLE_CODE = YES;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                CODE_SIGN_IDENTITY = "iPhone Developer";
+                COPY_PHASE_STRIP = NO;
+                DEBUG_INFORMATION_FORMAT = dwarf;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                ENABLE_TESTABILITY = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu11;
+                GCC_DYNAMIC_NO_PIC = NO;
+                GCC_NO_COMMON_BLOCKS = YES;
+                GCC_OPTIMIZATION_LEVEL = 0;
+                GCC_PREPROCESSOR_DEFINITIONS = (
+                    "DEBUG=1",
+                    "$(inherited)",
+                );
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+                MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+                MTL_FAST_MATH = YES;
+                ONLY_ACTIVE_ARCH = YES;
+                SDKROOT = iphoneos;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            };
+            name = Debug;
+        };
+        E34F5762222D9850007BAC4F /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+                CLANG_CXX_LIBRARY = "libc++";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_ENABLE_OBJC_WEAK = YES;
+                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_COMMA = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INFINITE_RECURSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+                CLANG_WARN_STRICT_PROTOTYPES = YES;
+                CLANG_WARN_SUSPICIOUS_MOVE = YES;
+                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+                CLANG_WARN_UNREACHABLE_CODE = YES;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                CODE_SIGN_IDENTITY = "iPhone Developer";
+                COPY_PHASE_STRIP = NO;
+                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+                ENABLE_NS_ASSERTIONS = NO;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu11;
+                GCC_NO_COMMON_BLOCKS = YES;
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+                MTL_ENABLE_DEBUG_INFO = NO;
+                MTL_FAST_MATH = YES;
+                SDKROOT = iphoneos;
+                SWIFT_COMPILATION_MODE = wholemodule;
+                SWIFT_OPTIMIZATION_LEVEL = "-O";
+                VALIDATE_PRODUCT = YES;
+            };
+            name = Release;
+        };
+        E34F5764222D9850007BAC4F /* Debug */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = B448D2DAAC63B9F67976D37C /* Pods-Kjorelista.debug.xcconfig */;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CODE_SIGN_STYLE = Automatic;
+                DEVELOPMENT_TEAM = XE253SCCM3;
+                INFOPLIST_FILE = Kjorelista/Info.plist;
+                IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+                PRODUCT_BUNDLE_IDENTIFIER = com.svenway.kjorelista;
+                PRODUCT_NAME = "Kjørelista";
+                SWIFT_VERSION = 4.2;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Debug;
+        };
+        E34F5765222D9850007BAC4F /* Release */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = 7E455010E5BCE0C73D59A5FB /* Pods-Kjorelista.release.xcconfig */;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CODE_SIGN_STYLE = Automatic;
+                DEVELOPMENT_TEAM = XE253SCCM3;
+                INFOPLIST_FILE = Kjorelista/Info.plist;
+                IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+                PRODUCT_BUNDLE_IDENTIFIER = com.svenway.kjorelista;
+                PRODUCT_NAME = "Kjørelista";
+                SWIFT_VERSION = 4.2;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Release;
+        };
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E34F5749222D984E007BAC4F /* Build configuration list for PBXProject "Kjorelista" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E34F5761222D9850007BAC4F /* Debug */,
-				E34F5762222D9850007BAC4F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E34F5763222D9850007BAC4F /* Build configuration list for PBXNativeTarget "Kjorelista" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E34F5764222D9850007BAC4F /* Debug */,
-				E34F5765222D9850007BAC4F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
+        E34F5749222D984E007BAC4F /* Build configuration list for PBXProject "Kjorelista" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                E34F5761222D9850007BAC4F /* Debug */,
+                E34F5762222D9850007BAC4F /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        E34F5763222D9850007BAC4F /* Build configuration list for PBXNativeTarget "Kjorelista" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                E34F5764222D9850007BAC4F /* Debug */,
+                E34F5765222D9850007BAC4F /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		E34F5766222D998E007BAC4F /* Model.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				E34F5767222D998E007BAC4F /* Model 3.xcdatamodel */,
-				E34F5768222D998E007BAC4F /* model 2.xcdatamodel */,
-				E34F5769222D998E007BAC4F /* Model.xcdatamodel */,
-			);
-			currentVersion = E34F5767222D998E007BAC4F /* Model 3.xcdatamodel */;
-			path = Model.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
+        E34F5766222D998E007BAC4F /* Model.xcdatamodeld */ = {
+            isa = XCVersionGroup;
+            children = (
+                E34F5767222D998E007BAC4F /* Model 3.xcdatamodel */,
+                E34F5768222D998E007BAC4F /* model 2.xcdatamodel */,
+                E34F5769222D998E007BAC4F /* Model.xcdatamodel */,
+            );
+            currentVersion = E34F5767222D998E007BAC4F /* Model 3.xcdatamodel */;
+            path = Model.xcdatamodeld;
+            sourceTree = "<group>";
+            versionGroupType = wrapper.xcdatamodel;
+        };
 /* End XCVersionGroup section */
-	};
-	rootObject = E34F5746222D984E007BAC4F /* Project object */;
+    };
+    rootObject = E34F5746222D984E007BAC4F /* Project object */;
 }

@@ -24,36 +24,19 @@ class Theme: NSObject {
         navigationBarAppearance.barTintColor = UIColor.appBarBackgroundColor()
         navigationBarAppearance.tintColor = UIColor.appBarButtonColor()
         navigationBarAppearance.titleTextAttributes = [
-            NSAttributedString.Key.font: UIFont.defaultSemiBoldFontWithSize(16),
-            NSAttributedString.Key.foregroundColor: UIColor.appBarButtonColor()
+            NSAttributedString.Key.font: UIFont.defaultThin(withSize: 16),
+            NSAttributedString.Key.foregroundColor: UIColor.appLightTextColor()
         ]
-        
-        let tabBarAppearance = UITabBar.appearance()
-        tabBarAppearance.barStyle = .black
-        tabBarAppearance.barTintColor = UIColor.appBarBackgroundColor()
-        tabBarAppearance.tintColor = UIColor.appHighlightColor()
-        
-        let tabBarItemAppearance = UITabBarItem.appearance()
-        tabBarItemAppearance.setTitleTextAttributes([NSAttributedString.Key.font : UIFont.defaultRegularFontWithSize(14),
-                                                     NSAttributedString.Key.foregroundColor: UIColor.appBarButtonColor()], for: .normal)
-        tabBarItemAppearance.setTitleTextAttributes([NSAttributedString.Key.font : UIFont.defaultBoldFontWithSize(14),
-                                                     NSAttributedString.Key.foregroundColor: UIColor.appHighlightColor()], for: .selected)
-        
-        
-        let segmentedControllerAppearance = UISegmentedControl.appearance()
-        segmentedControllerAppearance.tintColor = UIColor.appToolbarButtonTintColor()
-        segmentedControllerAppearance.setTitleTextAttributes([NSAttributedString.Key.font : UIFont.defaultSemiBoldFontWithSize(12)], for: .normal)
+        UIBarButtonItem.appearance().setTitleTextAttributes(
+            [NSAttributedString.Key.font: UIFont.defaultMedium(withSize: 14),
+             NSAttributedString.Key.foregroundColor: UIColor.appBarButtonColor()], for: .normal)
         
         UIBarButtonItem.appearance().setTitleTextAttributes(
-            [NSAttributedString.Key.font: UIFont.defaultSemiBoldFontWithSize(14),
-             NSAttributedString.Key.foregroundColor: UIColor.appToolbarButtonTintColor()], for: .normal)
-        
-        UIBarButtonItem.appearance().setTitleTextAttributes(
-            [NSAttributedString.Key.font: UIFont.defaultSemiBoldFontWithSize(14),
+            [NSAttributedString.Key.font: UIFont.defaultMedium(withSize: 14),
              NSAttributedString.Key.foregroundColor: UIColor.hexColor(rgbValue: 0x4D4D4F)], for: .disabled)
         
         UIBarButtonItem.appearance().setTitleTextAttributes(
-            [NSAttributedString.Key.font: UIFont.defaultSemiBoldFontWithSize(14),
+            [NSAttributedString.Key.font: UIFont.defaultMedium(withSize: 14),
              NSAttributedString.Key.foregroundColor: UIColor.appHighlightColor()], for: .highlighted)
         
 //        RMessageView.appearance().titleFont = UIFont.defaultBoldFontWithSize(14)
@@ -71,24 +54,28 @@ extension UINavigationController {
 
 extension UIFont {
     
-    static func defaultRegularFontWithSize(_ size: CGFloat) -> UIFont {
-        return UIFont(name: "AvenirNext-Regular", size: size)!
+    static func defaultRegular(withSize size: CGFloat) -> UIFont {
+        return UIFont(name: "Roboto-Regular", size: size)!
     }
     
-    static func defaultLightFontWithSize(_ size: CGFloat) -> UIFont {
-        return UIFont(name: "AvenirNext-UltraLight", size: size)!
+    static func defaultLight(withSize size: CGFloat) -> UIFont {
+        return UIFont(name: "Roboto-Light", size: size)!
     }
     
-    static func defaultSemiBoldFontWithSize(_ size: CGFloat) -> UIFont {
-        return UIFont(name: "AvenirNext-DemiBold", size: size)!
+    static func defaultThin(withSize size: CGFloat) -> UIFont {
+        return UIFont(name: "Roboto-Thin", size: size)!
     }
     
-    static func defaultBoldFontWithSize(_ size: CGFloat) -> UIFont {
-        return UIFont(name: "AvenirNext-Bold", size: size)!
+    static func defaultMedium(withSize size: CGFloat) -> UIFont {
+        return UIFont(name: "Roboto-Medium", size: size)!
     }
     
-    static func appCustomFontWithSize(_ size: CGFloat) -> UIFont {
-        return UIFont(name: "Zapfino", size: size)!
+    static func defaultBold(withSize size: CGFloat) -> UIFont {
+        return UIFont(name: "Roboto-Bold", size: size)!
+    }
+    
+    static func defaultBlack(withSize size: CGFloat) -> UIFont {
+        return UIFont(name: "Roboto-Black", size: size)!
     }
 }
 
@@ -115,43 +102,40 @@ extension UIColor {
     }
     
     static func appBackgroundColor() -> UIColor {
-        return UIColor.appSubBarBackgroundColor()
+        return hexColor(rgbValue: 0x2B2C3B)
+        
     }
     
     static func appBarBackgroundColor() -> UIColor {
-        return  hexColor(rgbValue: 0x262628)
+        return  hexColor(rgbValue: 0x2B2C3B)
     }
     
-    static func appSubBarBackgroundColor() -> UIColor {
-        return hexColor(rgbValue: 0x3A3A3C)
+    static func appHeadlineBackgroundColor() -> UIColor {
+        return hexColor(rgbValue: 0x464654)
+    }
+    
+    static func appSeperatorColor() -> UIColor {
+        return hexColor(rgbValue: 0x464654)
     }
     
     static func appBarButtonColor() -> UIColor {
-        return hexColor(rgbValue: 0xA3A1A3)
-    }
-    
-    static func appMainColor() -> UIColor {
-        return hexColor(rgbValue: 0x262628)
+        return hexColor(rgbValue: 0x0185D5)
     }
     
     static func appDarkTextColor() -> UIColor {
-        return hexColor(rgbValue: 0x262628)
+        return hexColor(rgbValue: 0x898B8E)
     }
     
-    static func appSubDarkTextColor() -> UIColor {
-        return hexColor(rgbValue: 0x3A3A3C)
+    static func appDarkTextColor2() -> UIColor {
+        return hexColor(rgbValue: 0x84868A)
+    }
+    
+    static func appDarkTextColor3() -> UIColor {
+        return hexColor(rgbValue: 0x446688)
     }
     
     static func appButtonColor() -> UIColor {
-        return appMainColor()
-    }
-    
-    static func appToolbarButtonColor() -> UIColor {
-        return hexColor(rgbValue: 0x69696A)
-    }
-    
-    static func appToolbarButtonTintColor() -> UIColor {
-        return hexColor(rgbValue: 0xA3A1A3)
+        return hexColor(rgbValue: 0x26956B)
     }
     
     static func appDisabledColor() -> UIColor {
@@ -159,15 +143,15 @@ extension UIColor {
     }
     
     static func appHighlightColor() -> UIColor {
-        return hexColor(rgbValue: 0x0ED788)
+        return hexColor(rgbValue: 0x5EA280)
     }
     
     static func appFieldValueColor() -> UIColor {
-        return hexColor(rgbValue: 0xA3A1A3)
+        return hexColor(rgbValue: 0x26956B)
     }
     
     static func appLightTextColor() -> UIColor {
-        return hexColor(rgbValue: 0xDEDEDE)
+        return hexColor(rgbValue: 0xD8DADC)
     }
     
     static func backgroundGradient() -> [UIColor] {
